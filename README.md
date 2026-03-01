@@ -1,5 +1,4 @@
 
-````markdown
 # Heart Disease Prediction System
 
 This is a **Heart Disease Prediction System** built using machine learning models. The system predicts whether a patient is likely to have heart disease based on clinical and diagnostic features. The application includes a **Streamlit frontend** for easy user interaction and stores all prediction records for future reference.
@@ -124,7 +123,7 @@ Hyperparameters were tuned to maximize **cross-validation AUC**. CatBoost achiev
 * `CatBoostModel.cbm` – Trained CatBoost model.
 * `heart_disease_records.csv` – Saved predictions.
 * `requirements.txt` – Python dependencies.
-* `notebook.ipynb` – Model training and evaluation notebook.
+* `heart-disease-predictor.ipynb` – Model training and evaluation notebook.
 
 ---
 
