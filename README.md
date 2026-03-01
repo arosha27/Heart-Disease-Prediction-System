@@ -144,18 +144,5 @@ Hyperparameters were tuned to maximize **cross-validation AUC**. CatBoost achiev
 
 ---
 
-```
-
-This README covers:  
-- Project overview  
-- Dataset and notebook links  
-- Models tested and evaluation results  
-- Features  
-- Installation & usage instructions  
-- Functionality explanation  
-- Repository file structure  
-
----
 
 
-```
