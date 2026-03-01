@@ -1,6 +1,7 @@
 
 
 import streamlit as st
+import os
 import pandas as pd
 from catboost import CatBoostClassifier, Pool
 import matplotlib.pyplot as plt
@@ -43,8 +44,9 @@ st.markdown(
 )
 
 # ---------------------- Load Model ----------------------
+model_path = os.path.join(os.path.dirname(__file__), "CatBoostModel.cbm")
 model = CatBoostClassifier()
-model.load_model("CatBoostModel.cbm")
+model.load_model(model_path)
 
 # ---------------------- Header ----------------------
 st.markdown(
